@@ -1,4 +1,4 @@
-#1 List all the customers (first and last name) and their age. (hint: age=2022 – birth year) 
+#1 List all the customers (first and last name) and their age.
 SELECT first_name, last_name, 2022 - birth_year as age
 FROM customer; 
 
